@@ -9,8 +9,10 @@ $conn = mysqli_connect(
     'php_mysql_crud'
 );
 
-// if (isset($conn)) {
-//     echo "DB connected";
-// }
+mysqli_connect_error();
+
+if (isset($conn)) {
+    echo "DB connected";
+}
 
 ?>
